@@ -2,7 +2,10 @@
 > An analysis of the state of global happiness through survey data from the World Happiness Report.
 
 # Installation needed
-> Run on Python 3.8.5. No packages outside of those included in the Anaconda distribution are needed.
+> Run on Python 3.8.5. Packages used outside of those included in the Anaconda distribution are listed here:
+>> Seaborn
+>> Geopandas (https://geopandas.org/getting_started/install.html)
+>> FuzzyWuzzy
 
 # Project motivation(s)
 > My main interest in analyzing these data were to see how the COVID-19 pandemic has impacted
@@ -22,7 +25,7 @@ happiness around the globe. Some of the questions/goals of this project included
 > There is a single Jupyter Notebook (world_happiness.ipynb) that work through these data to answer the questions noted above.
 
 # Results summary
-1. What countries/regions are happiest? **The Scandinavian and Northwestern European countries are the happiest in the world. Finland, Denmark, and Sweden make out the top three.**
+1. What countries/regions are happiest? **The Scandinavian and Northwestern European countries are the happiest in the world. Finland, Denmark, and Switzerland make out the top three.**
 2. What parameters correlate most positively/negatively with happiness? **Not too surprisingly, a country's wealth and healthy life expectancy are the top factors in happiness, whereas sense of corruption most negatively impacts happiness. Somewhat surprisingly, generosity doesn't appear to be a positive influence on one's happiness.**
 3. How'd COVID impact happiness around the world? **Of the sub-sample of 93 countries investigated, while the mean happiness score did decrease slightly, there was no statistical significance in this difference. It appears us humans are overall pretty resilient (our moods, not our immune system) to life-altering global pandemics.**
 4. Can we build a model that predicts happiness using supervised ML? **We were able to build a pretty successful simple linear model to predict happiness based on 7 parameters. Our model's r2 = 0.76.**
