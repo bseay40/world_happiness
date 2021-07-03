@@ -30,5 +30,7 @@ happiness around the globe. Some of the questions/goals of this project included
 3. How'd COVID impact happiness around the world? **Of the sub-sample of 93 countries investigated, while the mean happiness score did decrease slightly, there was no statistical significance in this difference. It appears us humans are overall pretty resilient (our moods, not our immune system) to life-altering global pandemics.**
 4. Can we build a model that predicts happiness using supervised ML? **We were able to build a pretty successful simple linear model to predict happiness based on 7 parameters. Our model's r2 = 0.76.**
 
+> Blog post featuring this analysis: https://brannonseay.medium.com/covid-19s-impact-on-world-happiness-an-analysis-of-2021-global-survey-data-e048fc3379c6
+
 # Licensing, Authors, Acknowledgements
 > Ajaypal Singh provided the dataset on from Kaggle (https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021). These data are originally from the World Happiness Report (https://worldhappiness.report/).

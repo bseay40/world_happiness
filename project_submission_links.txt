@@ -1,0 +1,5 @@
+GitHub link:  https://github.com/bseay40/world_happiness.git.
+
+Blog post link: https://brannonseay.medium.com/covid-19s-impact-on-world-happiness-an-analysis-of-2021-global-survey-data-e048fc3379c6
+
+The submit via project link was not working ("an internal server error...), so submitting this text file with links to GitHub and the blog post.
